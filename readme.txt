@@ -1,0 +1,49 @@
+=== Codespanker Cache ===
+Contributors: spencercameron
+Donate link: http://codespanker.com/donate
+Tags: cache, caching, speed, codespanker, optimize, optimization, performance
+Requires at least: 3.3
+Tested up to: 3.5.1
+Stable tag: 13.03.10
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Supercharge your WordPress site with full-page caching from Codespanker Cache.
+
+== Description ==
+
+Codespanker Cache is the first and only external caching service available for WordPress. With lightning fast response times and an uber reliable cloud infrastructure, you're sure to notice huge performance gains immediately. Not only will the load on your database be dramatically reduced, but also your server will be able to deliver more content to your visitors faster. This makes everybody happy. Setup is easy and hassle free. Designed and built from the ground up to be simple and efficient, the frustration and guesswork involved in setting up caching is a thing of the past. No account or signup is needed. Simply activate the plugin and a unique secret it will begin caching automatically safely storing your page caches on Codespanker.com servers. It's that easy. Get started now! 
+
+== Installation ==
+
+1. Upload the folder 'codespanker-cache' to the '/wp-content/plugins/' directory.
+2. Activate the plugin through the Plugins menu in WordPress.
+3. Optional: Set the cache expiration ( in seconds ) via the Settings->Cache menu.
+4. Enjoy a faster WordPress site.
+
+== Frequently Asked Questions ==
+
+= I activated the plugin, but my site doesn't seem to be loading any faster. Why? =
+
+Pages aren't cached for logged in users. In fact, nothing is cached for logged in users. Log out and you'll see the cache working.
+
+= Where are the pages cached for my site stored at? =
+
+They are stored on our caching servers at Codespanker.com behind firewalled connections.
+
+= Is my cached content stored in the same place as other sites? =
+
+Yes. We use a distributed cache setup. That means your content could potentially be stored along side many other sites.
+
+= If my cached content is stored in the same place as other sites, can my content get mixed up with theirs? Will I be hacked? =
+
+No. When you first activate the plugin, a secret key will be generated and stored in your WordPress database. Your cached content can't be modified without this secret key. The moral of this story is don't tell anyone your secret key.
+
+= Does this plugin transmit, modify, or store any sensitive data from my database such as user passwords or admin content? =
+
+No. The only content cached is what would have already been visible to the end user. Nothing is cached while an admin ( or any user ) is logged into WordPress.
+
+== Changelog ==
+
+= 13.03.10 =
+* Initial release.
