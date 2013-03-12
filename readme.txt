@@ -12,7 +12,19 @@ Supercharge your WordPress site with full-page caching from Codespanker Cache.
 
 == Description ==
 
-Codespanker Cache is the first and only external caching service available for WordPress. With lightning fast response times and an uber reliable cloud infrastructure, you're sure to notice huge performance gains immediately. Not only will the load on your database be dramatically reduced, but also your server will be able to deliver more content to your visitors faster. This makes everybody happy. Setup is easy and hassle free. Designed and built from the ground up to be simple and efficient, the frustration and guesswork involved in setting up caching is a thing of the past. No account or signup is needed. Once you activate the plugin, a unique secret will be generated and stored in your database. This will be used to make sure your content stays secure. Caching begins immediately after plugin activation. Your cached pages will be safely stored on Codespanker.com servers.
+Codespanker Cache is the first and only external caching service available for WordPress. With lightning fast response times and an uber reliable cloud infrastructure, you're sure to notice huge performance gains immediately. Not only will the load on your database be dramatically reduced, but also your server will be able to deliver more content to your visitors faster. This makes everybody happy.
+
+Setup is easy and hassle free. Designed and built from the ground up to be simple and efficient, the frustration and guesswork involved in setting up caching is a thing of the past. No account or signup is needed.
+
+Once you activate the plugin, a unique secret will be generated and stored in your database. This will be used to make sure your content stays secure. Caching begins immediately after plugin activation. Your cached pages will be safely stored on Codespanker.com servers.
+
+If you'd like to see how long it's taking to generate your pages, you can view the page source. Just before the closing head tag ( </head> ), you'll find the following:
+
+**When the page is not served from the cache:**
+`<!-- Page generated without caching in *your generation time* seconds. -->`
+
+**When the page is served from the cache:**
+`<!-- Served by Codespanker Cache in *time with caching* seconds. -->`
 
 == Installation ==
 
