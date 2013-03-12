@@ -26,6 +26,9 @@ If you'd like to see how long it's taking to generate your pages, you can view t
 **When the page is served from the cache:**
 `<!-- Served by Codespanker Cache in *time with caching* seconds. -->`
 
+**Note:**
+Nothing is cached for logged in users. If you'd like to see the caching in action ( and see your site actually speeding up ), you'll need to log out or view the page in another browser that's not logged in. Be sure to refresh a few times to see the difference. The first visit caches the page and subsequent visits are served from the cache ( these visits are the fast ones ).
+
 == Installation ==
 
 1. Upload the folder 'codespanker-cache' to the '/wp-content/plugins/' directory.
