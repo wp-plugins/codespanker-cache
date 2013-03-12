@@ -4,7 +4,7 @@ Donate link: http://codespanker.com/donate
 Tags: cache, caching, speed, codespanker, optimize, optimization, performance
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 13.03.10
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,5 +45,5 @@ No. The only content cached is what would have already been visible to the end u
 
 == Changelog ==
 
-= 13.03.10 =
+= 1.1 =
 * Initial release.
