@@ -18,7 +18,7 @@ Setup is easy and hassle free. Designed and built from the ground up to be simpl
 
 Once you activate the plugin, a unique secret will be generated and stored in your database. This will be used to make sure your content stays secure. Caching begins immediately after plugin activation. Your cached pages will be safely stored on Codespanker.com servers.
 
-If you'd like to see how long it's taking to generate your pages, you can view the page source. Just before the closing head tag ( </head> ), you'll find the following:
+If you'd like to see how long it's taking to generate your pages, you can view the page source. Just before the closing head tag ( `</head>` ), you'll find the following:
 
 **When the page is not served from the cache:**
 `<!-- Page generated without caching in *your generation time* seconds. -->`
