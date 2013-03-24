@@ -172,7 +172,7 @@ class CS_Cache {
 			
 			$host_name = site_url();
 
-			$check = $cs_remote_cache->cs_cache_set( $this->page_key, $page_content, $this->default_cache_expiration, $cache_connection->get_cache_secret(), $host_name );
+			$check = $cs_remote_cache->cs_cache_set( $this->page_key, $page_content, $this->get_cache_expiration(), $cache_connection->get_cache_secret(), $host_name );
 			
 			return $check;
 		}
