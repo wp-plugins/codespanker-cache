@@ -1,6 +1,6 @@
 === Codespanker Cache ===
 Contributors: spencercameron
-Donate link: http://codespanker.com/donate
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FBUMCC3UDUDTN
 Tags: cache, caching, speed, codespanker, optimize, optimization, performance
 Requires at least: 3.3
 Tested up to: 3.5.1
