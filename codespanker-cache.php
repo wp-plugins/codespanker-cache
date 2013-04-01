@@ -5,7 +5,7 @@
  * Description: External full page caching for WordPress. Activate and done. The cache starts working immediately speeding up your site.
  * Author: Spencer Cameron
  * Author URI: http://codespanker.com/
- * Version: 1.2
+ * Version: 1.3
  * License: GPL2
  */
 

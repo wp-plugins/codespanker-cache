@@ -12,7 +12,10 @@ Supercharge your WordPress site with full-page caching from Codespanker Cache.
 
 == Description ==
 
-**Notice: Due to the lack of interest/need for this service, it will no longer be available after Tuesday, April 2. Please deactivate the plugin before then to avoid any potential issues.**
+**Notice: Due to the lack of interest/need for this service, it will no longer be available after Tuesday, April 2. Please deactivate the plugin before then to avoid any potential issues.
+
+= 1.3 =
+* Notice: Due to the lack of interest/need for this service, it will no longer be available after Tuesday, April 2. Please deactivate the plugin before then to avoid any potential issues.**
 
 = 1.2 =
 * Fixed a bug where the user defined cache expiration was being ignored and the default cache expiration used instead ( 300 seconds ).
